@@ -1,0 +1,91 @@
+/*General Styles*/
+html, body{
+    height: 100%;
+}
+
+/*Modificar el modelo de cajas de css*/
+html{
+    box-sizing: border-box;
+}
+*,*::before,*::after{
+    box-sizing:inherit;
+}
+
+/*Modificar margenes y padding*/
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    width: 90%;
+    max-width: 1366px;
+    margin: 0 auto;
+
+}
+
+/*Estilos de los contenidos*/
+
+/*Estilos del header*/
+header{
+    background-color: green;
+    
+}
+#logo{
+    float: left;
+}
+#infoContacto{
+    float: right;
+    margin-top: 25px;
+}
+#infoContacto i{
+    color: #fff;
+    margin-right: 12px;
+    font-size: 1.20rem;
+}
+
+/*Seccion1*/
+article>section:nth-child(1){
+    background-image: linear-gradient(to left top,rgba(55,185,30,0.83),rgba(25,59,240,0.83)),url(/images/fondo_superior.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center right;
+}
+div#intro {
+    display: flex;
+    padding: 50px 0;
+    flex-flow: row wrap;
+    height: 100%;
+    min-height: 600px;
+}
+#descripcion {
+    flex-basis: 60%;
+    padding: 0 1em;
+    flex-grow: 2;
+    color: #fff;
+}
+h1 {
+    font-size: 2.68rem;
+    font-family: arial,tahoma,verdana,sans-serif;
+    margin-bottom: 25px;
+}
+#descripcion p{
+    margin-bottom: 33px;
+    line-height: 1.65;
+}
+#formulario {
+    flex-basis: 30%;
+    background-color: #fff;
+    padding: 20px 1em;
+}
+#formulario h2{
+    font-size: 1.40rem;
+    margin-bottom: 40px;
+}
+label{
+    display: block;
+    margin: 10px 0;
+    font-size: 0.90rem;
+}
