@@ -291,6 +291,25 @@ article > section:nth-child(5) {
         font-size: 1.43rem;
       }
 }
+/* Estilos para Galaxy Note 10 Plus en orientación vertical */
+@media screen and (max-width: 3040px) and (max-height: 1440px) {
+    /* Cambiar el tamaño del texto en las secciones 2 y 3 */
+    #seccion2 i,
+    #seccion3 h2 {
+        font-size: 2rem;
+    }
+
+    /* Cambiar el tamaño del texto en el pie de página */
+    .nav li a,
+    .copyright {
+        font-size: 1rem;
+    }
+
+    /* Alinear el video en el centro */
+    video {
+        margin: 0 auto;
+    }
+}
 
 
 
