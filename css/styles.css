@@ -179,7 +179,8 @@ article > section:nth-child(3){
   video {
     flex-basis: 40%;
     width: 40%;
-    height: 100;
+    max-width: 100%;
+    height: auto;
 }
 /*seccion 4*/
 article > section:nth-child(4){
@@ -250,7 +251,7 @@ article > section:nth-child(5) {
     background-color: #358d24;
     transition: all 0.5s;
   }
-
+/*pie de pagina*/
   footer{
     background-color: #2c2a2a;
     padding: 20px 0;
@@ -281,6 +282,15 @@ article > section:nth-child(5) {
     color: #c0bcbc;
     padding-top: 8px;
   }
+  /*mediaqueries*/
+  @media screen and (min-width:960px) and (max-width:1199px) {
+    .col h3 {
+        font-size: 1.05rem;
+    }
+    h2{
+        font-size: 1.43rem;
+      }
+}
 
 
 
