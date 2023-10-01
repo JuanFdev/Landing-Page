@@ -146,4 +146,78 @@ article > section:nth-child(2){
     font-weight: 500;
     margin-bottom: 12px;
 }
+/*seccion 3*/
+article > section:nth-child(3){
+    background-color: #f6f9fd;
+    padding: 40px 0;
+}
+#seccion3 {
+    display: flex;
+    flex-flow: row wrap;
+  }
+#seccion3 div {
+    flex-basis: 60%;
+    padding-right: 1.9em;
+  }
+  h2{
+    margin-bottom: 20px;
+  }
+  #seccion3 a {
+    display: inline-block;
+    background-color:#008000;
+    color: #fff;
+    padding: 12px 10em;
+    text-decoration: none;
+    margin: 25px 0;
+    border-radius: 10px;
+  }
+  video {
+    flex-basis: 40%;
+    width: 40%;
+    height: 100;
+}
+/*seccion 4*/
+article > section:nth-child(4){
+    padding: 60px 0;
+    text-align: center;
+}
+
+#seccion4 {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto;
+  }
+
+.card{
+    margin: 20px 0.5em;
+    box-shadow: 2px 5px 15px #ccc9c9;
+    padding-bottom: 35px;
+}
+.card img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.card p {
+    font-size: 0.9rem;
+    padding: 12px 2em;
+}
+.card i {
+    font-size: 1.50rem;
+    color: #107ba7;
+    margin: 0 0.2em;
+}
+/*seccion 5*/
+article > section:nth-child(5){
+    background-image: linear-gradient(to left top,rgba(55,185,30,0.83),rgba(25,59,240,0.83)),url(/images/fondo_inferior.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center right;
+}
+#seccion5 {
+    display: flex;
+    flex-flow: column;
+}
+
+
+
 
